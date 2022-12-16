@@ -31,18 +31,18 @@ header {
 
 .logo-block {
     /*     margin: 40px; */
-    cursor: default;
+
     text-decoration: none;
     color: white;
-    background-color: orangered;
+    background-color: #453128;
     cursor: pointer;
     padding: 10px;
-    margin:20px 0;
+    margin:10px 0 10px 40px;
     border-radius: 5px;
 }
 
 .logo-block:hover {
-    background-color: chocolate;
+    background-color: #644d3d;
 }
 
 .logo-title {
@@ -122,7 +122,7 @@ header {
 
 /*    ----FOOTER---------- */
 .footer {
-    margin: 10px;
+    margin-top: 10px;
 }
 
 .footer-container {
@@ -134,12 +134,20 @@ header {
 }
 
 .footer-logo-block {
-    margin: 30px 0 30px 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #453128;
+    cursor: pointer;
+    padding: 10px;
+    margin:10px 0 10px 40px;
+    border-radius: 5px;
 }
 
 .logo-title {
 }
-
+.copyright {
+    margin-right: 40px;
+}
 /*    ----ANIMATION------ */
 @-webkit-keyframes AnimationName {
     0% {

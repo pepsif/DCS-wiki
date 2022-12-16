@@ -1,13 +1,20 @@
-const missilesList = document.getElementById("accordion");
+const missilesListTitle = document.querySelector(".missiles-list-title");
+const missilesList = document.querySelector(".missiles-list")
 const iframe = document.getElementById("main-iframe");
 
-missilesList.addEventListener('click',missilesReducer)
-
-function missilesReducer(event) {
-    if(event.target.textContent === "aim 120") {
-        iframe.setAttribute("src","./aim-120.html")
+let count = 0;
+missilesListTitle.onclick = () => {
+    let items = missilesList.children;
+    if (count === 0) {
+        for (items of missilesList.children) {
+            items.style.display = "block";
+        }
+        count += 1;
+    } else if (count === 1) {
+        for (items of missilesList.children) {
+            items.style.display = "none";
+        }
+        count = 0;
     }
-console.log(event.target,iframe.getAttribute("src"))
 }
 
-console.log(iframe.getAttribute("src"))
