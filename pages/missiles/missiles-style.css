@@ -1,0 +1,78 @@
+
+.container {
+}
+.main-inner {
+    display:flex;
+    column-gap:20px;
+   
+   background-color:#3a3a41;
+    border-radius:10px;
+}
+.main-list {
+   
+}
+/*   --ACCORDION--- */
+
+#accordion {
+   background-color:#161515;
+    width:90%;
+    border-radius:10px;
+    padding:20px;
+    display:block;
+}
+.ui-accordion-header {
+    font-size:28px;
+    font-style:italic;
+    text-transform:capitalize;
+     padding:10px; 
+      border-radius:10px;
+}
+.ui-accordion-header:hover {
+    background-color:#737d7d7d;
+}
+.ui-accordion-content p {
+   padding:10px; 
+}
+.ui-accordion-content p:hover {
+    cursor:pointer;
+   background-color:#ff45009e;
+    border-radius:10px;
+}
+
+    /* --MISSILES--LIST-- */
+    .list {
+
+    }
+    .list-item {
+    margin-bottom: 4px;
+    }
+    .list-item:hover {
+        transform: scale(1.1);
+    }
+    .list-link {
+text-decoration: none;
+font-size: 20px;
+color:white;
+margin-left: 14px;
+    }
+
+
+/*   ---MAIN-CONTENT--- */
+
+.main-content {
+    background-color:#161515;
+color:white;
+    flex-grow:2;
+   border-radius:10px;
+}
+.main-content iframe {
+     width:88%;
+    height:70vh;
+    margin-left:50px;
+    padding:20px;
+   font-size:10px;
+   line-height:20px;
+}
+.iframe-text {
+    color:red;
+}
