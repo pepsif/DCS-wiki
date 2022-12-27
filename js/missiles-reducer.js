@@ -1,9 +1,34 @@
 const missilesListTitle = document.querySelector(".missiles-list-title");
-const missilesList = document.querySelector(".missiles-list")
+const missilesList = document.querySelector(".missiles-list");
+const missilesItem = document.querySelector(".missiles-item");
 const iframe = document.getElementById("main-iframe");
 
-let count = 0;
+console.log(iframe.getAttribute("src"))
+missilesList.addEventListener('click', setMissile)
+
+function setMissile(event) {
+    
+       if(event.target.textContent === "aim 120") {
+         iframe.setAttribute("src","./aim-120.html")
+       }
+       if(event.target.textContent === "sidewinder") {
+        iframe.setAttribute("src","./AIM-9X-Sidewinder.html")
+      }
+           
+      
+
+
+}
+
+
+
+
+
+
+
+let count = 0; // missiles NATO counter on off
 missilesListTitle.onclick = () => {
+
     let items = missilesList.children;
     if (count === 0) {
         for (items of missilesList.children) {

@@ -2,72 +2,96 @@
 }
 
 .main-inner {
-    display: flex;
-    column-gap: 20px;
-    background-color: #3a3a41;
-    border-radius: 10px;
+  display: flex;
+  column-gap: 20px;
+  background-color: #3a3a41;
+  border-radius: 10px;
 }
 
 .main-list {
 }
 
-
 /* --MISSILES--LIST-- */
 .missiles-list {
-    padding: 20px;
-   
+  /* padding: 20px; */
 }
 .missiles-list-title {
-    margin: 16px 0 0px 16px;
-    text-transform: capitalize;
-    font-size: 24px;
+  margin: 16px 0 0px 16px;
+  text-transform: capitalize;
+  font-size: 24px;
+  cursor: pointer;
 }
 .missiles-item {
-     display:none;
-    margin:0 0 8px 8px;
-    font-size: 22px;
-    text-transform: capitalize;
-    
+  display: none;
+  margin: 10px 0 8px 0;
+  font-size: 22px;
+  text-transform: capitalize;
+  cursor: pointer;
+ text-align:center;
 }
+.missiles-item:hover {
+ background-color:#9b8585;
+border-radius:6px;
 
+}
 .list-item {
-    text-transform: capitalize ;
-    margin: 20px 0 20px 20px;
+  text-transform: capitalize;
+  margin: 20px 0 20px 20px;
 }
 
 .list-item:hover {
-    transform: scale(1.1) translateX(10px);
+  transform: scale(1.1) translateX(10px);
 }
 
 .list-link {
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    margin: 30px 30px 20px 1px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  margin: 30px 30px 20px 1px;
 }
 
 /*   ---MAIN-CONTENT--- */
 .main-content {
-    background-color: #161515;
-    color: white;
-    flex-grow: 2;
-    border-radius: 10px;
+  background-color: #161515;
+  color: white;
+  flex-grow: 2;
+  border-radius: 10px;
 }
 
 .main-content iframe {
-    width: 88%;
-    height: 70vh;
-    margin-left: 50px;
-    padding: 20px;
-    font-size: 10px;
-    line-height: 20px;
+  width: 88%;
+  height: 70vh;
+  margin-left: 50px;
+  padding: 20px;
+  font-size: 10px;
+  line-height: 20px;
 }
 
-.iframe-text {
-    color: red;
+.main-info {
+ color:white;
+ line-height: 28px;
+ letter-spacing: 2px;
+ font-size: 20px;
+ display: flex;
+   flex-direction:column;
 }
 
 /*---FOOTER--*/
 .copyright {
-    margin-right: 40px;
+  margin-right: 40px;
+}
+
+/* ---AIM120-BLOCK-- */
+.aim120-block {
+    display: flex;
+   flex-direction:column;
+  
+}
+.aim120-block p {
+  color:white;
+  line-height: 28px;
+  letter-spacing: 2px;
+  font-size: 20px;
+  text-indent: 20px;
+  margin: 6px;
 }
