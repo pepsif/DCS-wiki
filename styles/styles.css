@@ -1,7 +1,7 @@
 body {
     color: aliceblue;
     font-family: 'Roboto Mono', monospace;
-    background: linear-gradient(48deg, #2c4b43, #87332a, #00bebf);
+    background: linear-gradient(48deg, #43304c, #000000, #390404);
     background-size: 600% 600%;
     -webkit-animation: AnimationName 160s ease infinite;
     -moz-animation: AnimationName 160s ease infinite;

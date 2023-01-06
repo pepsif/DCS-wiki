@@ -1,3 +1,6 @@
+h1,h2,h3,h4,h5,ul {
+  margin: 0;
+}
 .main-container {
 }
 
@@ -21,7 +24,7 @@
   font-size: 24px;
   cursor: pointer;
 }
-.missiles-item {
+.missile-item {
   display: none;
   margin: 10px 0 8px 0;
   font-size: 22px;
@@ -75,7 +78,22 @@ border-radius:6px;
  display: flex;
    flex-direction:column;
 }
+.main-info p {
+  text-indent: 20px;
+  margin: 6px;
+}
+.missile-title {
+ margin: 10px;
+}
+.missile-prop-list {
+margin: 10px;
+}
+.missile-prop-item {
 
+}
+ul {
+  /* text-align: center; */
+}
 /*---FOOTER--*/
 .copyright {
   margin-right: 40px;
