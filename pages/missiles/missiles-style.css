@@ -30,6 +30,10 @@ h1,h2,h3,h4,h5,ul {
   font-size: 24px;
   cursor: pointer;
 }
+.missiles-list-title:hover {
+  background-color: #9b8585;
+ 
+}
 .missile-item {
   /* display: none; */
   margin: 10px 0 8px 0;
@@ -38,8 +42,9 @@ h1,h2,h3,h4,h5,ul {
   cursor: pointer;
 margin-left:40px;
 }
-.missiles-item:hover {
+.missile-item:hover {
  background-color:#9b8585;
+
 border-radius:6px;
 
 }
@@ -87,6 +92,9 @@ border-radius:6px;
 .main-info p {
   text-indent: 20px;
   margin: 6px;
+}
+.main-info h3 {
+  padding: 4px 0 4px 20% ;
 }
 .missile-title {
  margin: 10px;

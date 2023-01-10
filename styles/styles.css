@@ -76,7 +76,7 @@ header {
 
 .nav-link:hover {
     transform: scale(1.1);
-    background-color: orangered;
+    background-color: #644d3d;
     border-radius: 10px;
 }
 

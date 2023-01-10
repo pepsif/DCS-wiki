@@ -5,11 +5,10 @@ const russiaMissilesList = document.querySelector(".russia-missiles-list");
 const missilesItem = document.querySelector(".missiles-item");
 const iframe = document.getElementById("main-iframe");
 
-console.log(russiaMissilesList)
+// console.log(russiaMissilesList)
 mainList.addEventListener('click', onOffMissilesList)
 
 function onOffMissilesList(event) {
-
   console.log(event.target.textContent)
 
   if (event.target.textContent === "missiles NATO") {
@@ -21,13 +20,12 @@ function onOffMissilesList(event) {
     russiaMissilesList.classList.toggle("")
   }
 
-setMissile(event)
+  setMissileReducer(event)
 }
 
-
-
-function setMissile(event) {
+function setMissileReducer(event) {
   // console.log(event.target.textContent)
+  // ---NATO MISSILES---
   if (event.target.textContent === "aim 120") {
     iframe.setAttribute("src", "./aim-120.html")
   }
@@ -42,6 +40,12 @@ function setMissile(event) {
   }
   if (event.target.textContent === "AIM-7М Sparrow") {
     iframe.setAttribute("src", "./aim7msparrow.html")
+  }
+
+
+  //  ----rUSSIA MISSILES-----
+  if (event.target.textContent === "p 60") {
+    iframe.setAttribute("src", "./p60.html")
   }
 }
 
