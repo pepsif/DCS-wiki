@@ -15,8 +15,14 @@ h1,h2,h3,h4,h5,ul {
 }
 
 /* --MISSILES--LIST-- */
-.missiles-list {
+
+
+.nato-missiles-list, .russia-missiles-list {
   /* padding: 20px; */
+  display: none;
+}
+.active {
+  display: block;
 }
 .missiles-list-title {
   margin: 16px 0 0px 16px;
@@ -25,12 +31,12 @@ h1,h2,h3,h4,h5,ul {
   cursor: pointer;
 }
 .missile-item {
-  display: none;
+  /* display: none; */
   margin: 10px 0 8px 0;
   font-size: 22px;
   text-transform: capitalize;
   cursor: pointer;
- text-align:center;
+margin-left:40px;
 }
 .missiles-item:hover {
  background-color:#9b8585;
