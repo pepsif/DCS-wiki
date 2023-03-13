@@ -29,7 +29,7 @@ function setMissileReducer(event) {
   if (event.target.textContent === "aim 120") {
     iframe.setAttribute("src", "./aim-120.html")
   }
-  if (event.target.textContent === "sidewinder") {
+  if (event.target.textContent === "aim-9") {
     iframe.setAttribute("src", "./AIM-9X-Sidewinder.html")
   }
   if (event.target.textContent === "aim 120b") {
@@ -38,7 +38,7 @@ function setMissileReducer(event) {
   if (event.target.textContent === "aim 120c") {
     iframe.setAttribute("src", "./aim120c.html")
   }
-  if (event.target.textContent === "AIM-7М Sparrow") {
+  if (event.target.textContent === "aim-7") {
     iframe.setAttribute("src", "./aim7msparrow.html")
   }
 

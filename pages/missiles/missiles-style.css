@@ -127,3 +127,17 @@ ul {
   text-indent: 20px;
   margin: 6px;
 }
+
+
+@media (max-width: 800px) { 
+ 
+    .missiles-list-title, .missile-item, .logo-title, .nav-link, .main-info p, .missile-prop-list {
+    font-size: 16px;
+    
+  }
+  #main-iframe {
+    margin: 0;
+  }
+ }
+
+ 
