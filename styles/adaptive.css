@@ -1,11 +1,11 @@
 @media (max-width: 800px) { 
   body {
-    padding: 100px;
-    font-size: 12px;
+    /* padding: 100px; */
+    /* font-size: 12px; */
   }
     .missiles-list-title {
     font-size: 10px;
-    color: red;
+    
   }
 
  }

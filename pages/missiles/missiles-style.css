@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,ul {
 .missiles-list-title {
   margin: 16px 0 0px 16px;
   text-transform: capitalize;
-  font-size: 24px;
+  font-size: 14px;
   cursor: pointer;
 }
 .missiles-list-title:hover {
@@ -37,7 +37,7 @@ h1,h2,h3,h4,h5,ul {
 .missile-item {
   /* display: none; */
   margin: 10px 0 8px 0;
-  font-size: 22px;
+  font-size: 12px;
   text-transform: capitalize;
   cursor: pointer;
 margin-left:40px;
@@ -59,7 +59,7 @@ border-radius:6px;
 
 .list-link {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 10px;
   color: white;
   margin: 30px 30px 20px 1px;
 }
@@ -76,16 +76,16 @@ border-radius:6px;
   width: 88%;
   height: 70vh;
   margin-left: 50px;
-  padding: 20px;
+  /* padding: 20px; */
   font-size: 10px;
   line-height: 20px;
 }
 
 .main-info {
  color:white;
- line-height: 28px;
+ line-height: 14px;
  letter-spacing: 2px;
- font-size: 20px;
+ font-size: 10px;
  display: flex;
    flex-direction:column;
 }
@@ -121,9 +121,9 @@ ul {
 }
 .aim120-block p {
   color:white;
-  line-height: 28px;
+  line-height: 18px;
   letter-spacing: 2px;
-  font-size: 20px;
+  font-size: 10px;
   text-indent: 20px;
   margin: 6px;
 }
@@ -131,8 +131,8 @@ ul {
 
 @media (max-width: 800px) { 
  
-    .missiles-list-title, .missile-item, .logo-title, .nav-link, .main-info p, .missile-prop-list {
-    font-size: 16px;
+    .missiles-list-title, .missile-item, .logo-title, .nav-link, .main-info p, .missile-prop-list, .main-info {
+    font-size: 10px;
     
   }
   #main-iframe {
@@ -140,4 +140,10 @@ ul {
   }
  }
 
+ @media (max-width: 700px) { 
+  .main-inner {
+    display: flex;
+    flex-direction: column;
+  }
+ }
  

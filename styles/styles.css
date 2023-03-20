@@ -1,192 +1,195 @@
 body {
-    color: aliceblue;
-    font-family: 'Roboto Mono', monospace;
-    background: linear-gradient(48deg, #43304c, #000000, #390404);
-    background-size: 600% 600%;
-    -webkit-animation: AnimationName 160s ease infinite;
-    -moz-animation: AnimationName 160s ease infinite;
-    animation: AnimationName 160s ease infinite;
-    box-sizing: border-box;
+  color: aliceblue;
+
+  font-family: "Roboto Mono", monospace;
+  background: linear-gradient(48deg, #43304c, #000000, #390404);
+  /* background-size: 600% 600%; */
+  -webkit-animation: AnimationName 160s ease infinite;
+  -moz-animation: AnimationName 160s ease infinite;
+  animation: AnimationName 160s ease infinite;
+  box-sizing: border-box;
 }
 
 .container {
-    max-width: 1120px;
-    margin: 0 auto;
-    padding: 0 15px;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 /*    ----HEADER------ */
 header {
-    /*    width:100%; */
+  /*    width:100%; */
 }
 
 .header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #161515;
-    margin: 10px 0 10px 0;
-      border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #161515;
+  margin: 10px 0 10px 0;
+  border-radius: 6px;
 }
 
 .logo-block {
-    /*     margin: 40px; */
+  /*     margin: 40px; */
 
-    text-decoration: none;
-    color: white;
-    background-color: #453128;
-    cursor: pointer;
-    padding: 10px;
-    margin:10px 0 10px 40px;
-    border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  background-color: #453128;
+  cursor: pointer;
+  /* padding: 10px; */
+  margin: 10px 0 10px 40px;
+  border-radius: 5px;
 }
 
 .logo-block:hover {
-    background-color: #644d3d;
+  background-color: #644d3d;
 }
 
 .logo-title {
-    font-size: 25px;
+  font-size: 12px;
 }
 
 .logo-icon {
-    width: 20px;
-    border-radius: 5px;
+  width: 20px;
+  border-radius: 5px;
 }
 
 .navigation {
 }
 
 .nav-list {
-    display: flex;
+  display: flex;
 }
 
 .nav-item {
-    margin-right: 40px;
-    cursor: pointer;
+  margin-right: 40px;
+  cursor: pointer;
 }
 
 .nav-link {
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    transition: 0.2s ease;
-    font-size: 18px;
+  text-decoration: none;
+  color: white;
+
+  transition: 0.2s ease;
+  font-size: 10px;
 }
 
 .nav-link:hover {
-    transform: scale(1.1);
-    background-color: #644d3d;
-    border-radius: 10px;
+  transform: scale(1.1);
+  color: #bab8b6;
 }
 
 /* ----CARDS-BLOCK------- */
 .card-section {
-
 }
 
 .cards-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+  width: 150px;
+  height: 150px;
+  color: white;
+  margin: 1% 1%;
 }
 
 .card-wrapper {
     overflow: hidden;
-    max-width: 300px;
-    max-height: 320px;
-}
-
-.card {
-    color: white;
-    margin: 2% 1%;
-}
-
+   display: flex;
+   flex-grow: 2;
+  }
+  
+  
 .card-image {
-    max-width: 100%;
-    height: 320px;
-    transition: 0.4s ease;
-    border-radius: 10px;
+  width: 100%;
+  
+  transition: 0.4s ease;
 }
 
 .card:hover .card-image {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .card-title {
-    font-size: 20px;
-    text-align: center;
-    padding: 10px;
-    background-color: #314b65;
+  font-size: 12px;
+  text-align: center;
+  padding: 10px;
+  background-color: #314b65;
 }
 
 /*    ----FOOTER---------- */
 .footer {
-    margin-top: 10px;
+
 }
 
 .footer-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #161515;
-    border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #161515;
+  border-radius: 6px;
 }
 
 .footer-logo-block {
-    text-decoration: none;
-    color: white;
-    background-color: #453128;
-    cursor: pointer;
-    padding: 10px;
-    margin:10px 0 10px 40px;
-    border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  background-color: #453128;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px 0 10px 40px;
+  border-radius: 5px;
 }
 
 .logo-title {
 }
 .copyright {
-    margin-right: 40px;
+    font-size: 8px;
+    font-style: italic;
+  margin-right: 40px;
 }
 /*    ----ANIMATION------ */
 @-webkit-keyframes AnimationName {
-    0% {
-        background-position: 0% 60%
-    }
+  0% {
+    background-position: 0% 60%;
+  }
 
-    50% {
-        background-position: 100% 41%
-    }
+  50% {
+    background-position: 100% 41%;
+  }
 
-    100% {
-        background-position: 0% 60%
-    }
+  100% {
+    background-position: 0% 60%;
+  }
 }
 
 @-moz-keyframes AnimationName {
-    0% {
-        background-position: 0% 60%
-    }
+  0% {
+    background-position: 0% 60%;
+  }
 
-    50% {
-        background-position: 100% 41%
-    }
+  50% {
+    background-position: 100% 41%;
+  }
 
-    100% {
-        background-position: 0% 60%
-    }
+  100% {
+    background-position: 0% 60%;
+  }
 }
 
 @keyframes AnimationName {
-    0% {
-        background-position: 0% 60%
-    }
+  0% {
+    background-position: 0% 60%;
+  }
 
-    50% {
-        background-position: 100% 41%
-    }
+  50% {
+    background-position: 100% 41%;
+  }
 
-    100% {
-        background-position: 0% 60%
-    }
+  100% {
+    background-position: 0% 60%;
+  }
 }
