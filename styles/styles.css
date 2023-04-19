@@ -13,6 +13,7 @@ body {
 .container {
   max-width: 500px;
   margin: 0 auto;
+  height: 100vh;
 }
 
 /*    ----HEADER------ */
@@ -30,19 +31,16 @@ header {
 }
 
 .logo-block {
-  /*     margin: 40px; */
-
   text-decoration: none;
   color: white;
-  background-color: #453128;
+
   cursor: pointer;
-  /* padding: 10px; */
+
   margin: 10px 0 10px 40px;
   border-radius: 5px;
 }
 
 .logo-block:hover {
-  background-color: #644d3d;
 }
 
 .logo-title {
@@ -59,11 +57,13 @@ header {
 
 .nav-list {
   display: flex;
+  /* align-items: center; */
 }
 
 .nav-item {
-  margin-right: 40px;
+  margin-right: 20px;
   cursor: pointer;
+  display: flex;
 }
 
 .nav-link {
@@ -89,8 +89,8 @@ header {
   justify-content: center;
 }
 .card {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   width: 150px;
   height: 150px;
   color: white;
@@ -98,15 +98,14 @@ header {
 }
 
 .card-wrapper {
-    overflow: hidden;
-   display: flex;
-   flex-grow: 2;
-  }
-  
-  
+  overflow: hidden;
+  display: flex;
+  flex-grow: 2;
+}
+
 .card-image {
   width: 100%;
-  
+
   transition: 0.4s ease;
 }
 
@@ -123,7 +122,6 @@ header {
 
 /*    ----FOOTER---------- */
 .footer {
-
 }
 
 .footer-container {
@@ -147,8 +145,8 @@ header {
 .logo-title {
 }
 .copyright {
-    font-size: 8px;
-    font-style: italic;
+  font-size: 8px;
+  font-style: italic;
   margin-right: 40px;
 }
 /*    ----ANIMATION------ */

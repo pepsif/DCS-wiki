@@ -41,6 +41,9 @@ function setMissileReducer(event) {
   if (event.target.textContent === "aim-7") {
     iframe.setAttribute("src", "./aim7msparrow.html")
   }
+  if (event.target.textContent === "r 27") {
+    iframe.setAttribute("src", "./r27.html")
+  }
 
 
   //  ----rUSSIA MISSILES-----
